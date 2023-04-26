@@ -1,0 +1,240 @@
+.FormText {
+  box-sizing: border-box;
+  line-height: 1.3em;
+  margin: -1.5% 0 5% 21.5%;
+  padding: 0;
+  width: 63.3%;
+}
+/* Lash Text */
+.lash-text h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.with {
+  font-weight: lighter;
+}
+.change {
+  color: #000;
+  font-size: medium;
+}
+/* CHOOSE A DATE & TIME */
+.header {
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  font-family: Proxima N W01 Bold,sans-serif;
+  font-size: 15px;
+  font-weight: 400 bolder;
+  letter-spacing: 1px;
+  margin: 40px 0 40px 0%;
+  padding: 12px 0;
+  text-transform: uppercase;
+  width: 90%;
+  text-align: center;
+}
+/* Form style */
+.nv-row {
+  line-height: 37px;
+  margin: 10px 0;
+  clear: both;
+  margin-left: 10%;
+}
+/* .nv-row label {
+  display: inline-block;
+  width: 20%;
+  font-size: 16px;
+} */
+
+.FormText input[type=text], 
+.FormText input[type=email], 
+.FormText input[type=tel], 
+.FormText 
+.phone-with-country, 
+.FormText #stripe-cc-element {
+  width: 48%;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+}
+.FormText-notice {
+  clear: both;
+  margin: 20px 0;
+  margin-left: 6rem;
+}
+.FormText h4 {
+  font-family: "Proxima N W01 Bold", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0;
+}
+.form-row label {
+  line-height: 37px;
+  display: inline-block;
+}
+#remember_me {
+  margin-left: 6rem;
+}
+.btn {
+  background-color: #391E22;
+  border-color: #391E22;
+  max-width: 100%;
+  white-space: normal;
+  font-size: 16px;
+  padding: 13px 42px;
+  border-radius: 24px;
+  text-decoration: none;
+  -webkit-appearance: none;
+  color: white;   
+  margin-left: 20rem;
+  margin-top: 5%;
+}
+
+@media (min-width: 320px) {
+  .FormText {
+    box-sizing: border-box;
+    line-height: 1.3em;
+    margin: -1.5% 7% 21.5%;
+    padding: 0;
+    width: 63.3%;
+  }
+  .lash-text h2 {
+    margin-top: 15%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .header {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    font-family: Proxima N W01 Bold,sans-serif;
+    font-size: 15px;
+    font-weight: 400 bolder;
+    letter-spacing: 1px;
+    margin: 40px 0 40px 0%;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 136%;
+    text-align: center;
+  }
+  .nv-row {
+    line-height: 37px;
+    margin: 10px 0;
+    clear: both;
+    margin-left: 0%;
+  }
+  .nv-row label {
+    display: block;
+    font-size: 16px;
+  }
+  .FormText input[type=text], 
+  .FormText input[type=email], 
+  .FormText input[type=tel], 
+  .FormText 
+  .phone-with-country, 
+  .FormText #stripe-cc-element {
+    width: 130%;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000;
+  }
+  .FormText-notice {
+    line-height: 1;
+    clear: both;
+    margin: 20px 0;
+    margin-left: 0rem;
+    width: 138%;
+  }
+  #remember_me {
+    margin-left: 0rem;
+  }
+  .btn {
+    background-color: #391E22;
+    border-color: #391E22;
+    max-width: 100%;
+    white-space: normal;
+    font-size: 16px;
+    padding: 13px 42px;
+    border-radius: 24px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    color: white;   
+    margin-left: 0rem;
+    margin-top: 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  .FormText {
+    box-sizing: border-box;
+    line-height: 1.3em;
+    margin: -1.5% 0 5% 21.5%;
+    padding: 0;
+    width: 63.3%;
+  }
+  .lash-text h2 {
+    margin-top: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .header {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    font-family: Proxima N W01 Bold,sans-serif;
+    font-size: 15px;
+    font-weight: 400 bolder;
+    letter-spacing: 1px;
+    margin: 40px 0 40px 0%;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 90%;
+    text-align: center;
+  }
+  .nv-row {
+    line-height: 37px;
+    margin: 10px 0;
+    clear: both;
+    margin-left: 10%;
+  }
+  .nv-row label {
+    display: inline-block;
+    width: 20%;
+    font-size: 16px;
+  }
+  .FormText input[type=text], 
+  .FormText input[type=email], 
+  .FormText input[type=tel], 
+  .FormText 
+  .phone-with-country, 
+  .FormText #stripe-cc-element {
+    width: 48%;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #000;
+  }
+  .FormText-notice {
+    clear: both;
+    margin: 20px 0;
+    margin-left: 6rem;
+  }
+  #remember_me {
+    margin-left: 6rem;
+  }
+  .btn {
+    background-color: #391E22;
+    border-color: #391E22;
+    max-width: 100%;
+    white-space: normal;
+    font-size: 16px;
+    padding: 13px 42px;
+    border-radius: 24px;
+    text-decoration: none;
+    -webkit-appearance: none;
+    color: white;   
+    margin-left: 20rem;
+    margin-top: 0%;
+  }
+}

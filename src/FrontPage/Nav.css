@@ -1,0 +1,87 @@
+/* The Lashlogo */
+.Nav {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.Nav-img {
+    background-color: #000;
+    color: #000;
+    height: 10%;
+    width: 10%;
+}
+/* The Word Lxxii.Lash */
+.Lash-Name {
+    font-family: Proxima N W01 Bold,sans-serif;
+    font-size: 3rem;
+    margin-top: 3%;
+}
+/* The Welcome Word */
+.Header p {
+    font-family: Proxima N W01 Light,sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 3%;
+}
+/* Navbar */
+.Navbar h2 {
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    font-family: Proxima N W01 Bold,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 40px 0 40px 10%;
+    padding: 12px 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 80%;
+}
+
+@media (min-width: 320px) {
+    .Nav-img {
+        background-color: #000;
+        color: #000;
+        height: 40%;
+        width: 40%;
+        margin-top: 10%;
+    }
+    .Lash-Name {
+        font-family: Proxima N W01 Bold,sans-serif;
+        font-size: 3rem;
+        margin-top: 10%;
+    }
+    .Header p {
+        font-family: Proxima N W01 Light,sans-serif;
+        line-height: 1.5;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width: 768px) {
+    .Nav-img {
+        background-color: #000;
+        color: #000;
+        height: 10%;
+        width: 10%;
+        margin-top: 0;
+    }
+    /* The Word Lxxii.Lash */
+    .Lash-Name {
+        font-family: Proxima N W01 Bold,sans-serif;
+        font-size: 3rem;
+        margin-top: 3%;
+    }
+    /* The Welcome Word */
+    .Header p {
+        font-family: Proxima N W01 Light,sans-serif;
+        line-height: 1.5;
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 3%;
+    }
+}

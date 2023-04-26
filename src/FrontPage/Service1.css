@@ -1,0 +1,66 @@
+.Service1 {
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: 0 0 5% 10%;
+    padding: 0;
+    width: 70%;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.Service1 div {
+    width: 60%;
+    line-height: 1.5;
+}
+.Service1 h4, .text {
+    font-family: Albert Sans,sans-serif;
+    font-family: Arimo,sans-serif;
+    font-family: Ibarra Real Nova,serif;
+}
+.Service1 h4 {
+    color: #000;
+    cursor: pointer;
+    font-size: large;
+    margin-bottom: 2%;
+    position: relative;
+    text-decoration: underline;
+}
+
+@media (min-width: 320px) {
+    h3 {
+        font-size: 1.14em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: 500;
+    }
+    .Service1 div {
+        width: 125%;
+        line-height: 1.6;
+    }
+}
+
+@media (min-width: 768px) {
+    h3 {
+        display: block;
+        font-size: 1.17em;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+    
+    .Service1 div {
+        width: 60%;
+        line-height: 1.5;
+    }
+}
